@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 #define N 3
 int queue[3][N];
 int front[3]={0,0,0};
