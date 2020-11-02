@@ -26,7 +26,7 @@ switch(ch)
 		if(pr>0 && pr<4)
 		pqinsert(pr-1);
 		else
-		printf("\only 3 priority exists 1 2 3\n");
+		printf("\nonly 3 priority exists 1 2 3\n");
 		break;
 case 2:pqdelete();
 	   break;
@@ -56,7 +56,7 @@ pqdelete()
     for(i=0;i<3;i++)
     {
         if(rear[i]==front[i]-1)
-            printf("\queue empty\n");
+            printf("\nqueue empty\n");
         else
         {
             printf("deleted item is %d of queue %d\n",queue[i][front[i]],i+1);
